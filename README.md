@@ -36,11 +36,11 @@ pip install -r requirements.txt
 # Настроить базу данных в файле config.py
 # Пример:
 DB_CONFIG = {
-    'host': 'localhost',
+    'host': 'хост',
     'database': 'edu_risk_db',
     'user': 'root',
     'password': 'ваш_пароль',
-    'port': 3306
+    'port': порт
 }
 
 # Сгенерировать данные
