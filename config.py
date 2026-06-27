@@ -15,11 +15,11 @@ LOGS_DIR.mkdir(exist_ok=True)
 
 # Настройки MySQL
 DB_CONFIG = {
-    'host': 'localhost',
-    'database': 'education_db',
-    'user': 'root',
-    'password': 'dr23062004',
-    'port': 3306
+    'host': 'hostname',
+    'database': 'db_name',
+    'user': 'username',
+    'password': 'your_passwd',
+    'port': "port"
 }
 
 # Альтернативный формат для SQLAlchemy
